@@ -12,7 +12,7 @@ function GoogleDriveStorage() {
       developerKey: "AIzaSyDKk2CiM-YeTJdFF-CPNi-jHru3HbQHd-A",
       viewId: "PDFS",
       token:
-        "ya29.A0ARrdaM8ZRcJ_0VFlLtj7Y1-nVrb4YZBeNlyTeAi5bCpaetL19QvA24lEGd-JTI_L8LLyftHENY_yIPUJobslyZaIEJva1KDOJlAQr0wgF7P_Z2tU5pspEQ1lwdUwE4FOUNuNhok6mb4NJI6vb5lSbaWYMS8g", // pass oauth token in case you already have one
+        "ya29.A0ARrdaM99uR8QclkDZX_bIA3oysDBIevUkxVmhR6NwNR0CGcXsn8aIzJMmwxOXS7fqOKVqKmuFLstvqa0mApFHdZWn-WwCtFrgVDF88ztX2HPFR7sm9JqazxEwsP7t6msUoYtObFhBhXVMM9_Zn1md6Fk3BD-", // pass oauth token in case you already have one
       showUploadView: true,
       showUploadFolders: false,
       disableDefaultView: true,
