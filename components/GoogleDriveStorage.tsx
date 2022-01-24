@@ -10,14 +10,14 @@ function GoogleDriveStorage() {
       clientId:
         "583381385603-9mrtnhcpohqk85bp1qfoqbd08eomo9lf.apps.googleusercontent.com",
       developerKey: "AIzaSyDKk2CiM-YeTJdFF-CPNi-jHru3HbQHd-A",
-      viewId: "DOCS",
+      viewId: "PDFS",
       token:
-        "ya29.A0ARrdaM8IpWIVmD_VmK7Ke6IGl-kMoDfpRUxxzufac-Kzgx66P953NSfKRPBzooiiLkxs0CjrPtTuHm3DxBHSzVhXUWUs52Y6PXwglZLEy7snR7xpV5f2_LS2oiHHM61XyamCtP6hFPtEFy1s__VwwMMp7RmV", // pass oauth token in case you already have one
+        "ya29.A0ARrdaM8ZRcJ_0VFlLtj7Y1-nVrb4YZBeNlyTeAi5bCpaetL19QvA24lEGd-JTI_L8LLyftHENY_yIPUJobslyZaIEJva1KDOJlAQr0wgF7P_Z2tU5pspEQ1lwdUwE4FOUNuNhok6mb4NJI6vb5lSbaWYMS8g", // pass oauth token in case you already have one
       showUploadView: true,
       showUploadFolders: false,
       disableDefaultView: true,
-      supportDrives: true,
-      multiselect: true,
+      supportDrives: false,
+      multiselect: false,
       // customViews: customViewsArray, // custom view
     });
   };
