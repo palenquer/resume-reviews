@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import axios from "axios";
-import { UiFileInputButton } from "../components/UiFileInputButton";
+import { UploadButton } from "../components/UploadButton";
+import GoogleDriveStorage from "../components/GoogleDriveStorage";
 
 const Home: NextPage = () => {
   const onChange = async (formData: FormData) => {
@@ -27,12 +28,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="h-screen flex justify-center items-center">
-        <UiFileInputButton
-          label="Upload"
+      <div className="h-screen flex justify-center items-center gap-4">
+        <UploadButton
+          label="Local Upload"
           uploadFileName="theFiles"
           onChange={onChange}
         />
+        <GoogleDriveStorage />
       </div>
     </>
   );
