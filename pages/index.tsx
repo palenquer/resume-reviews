@@ -29,6 +29,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="h-screen flex justify-center items-center gap-4">
+        <h1>test</h1>
         <UploadButton
           label="Local Upload"
           uploadFileName="theFiles"
